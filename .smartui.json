@@ -1,0 +1,27 @@
+{
+  "storybook": {
+    "browsers": [
+      "chrome",
+      "safari"
+    ],
+    "viewports": [
+      [
+        1920,
+        1080
+      ]
+    ],
+    "waitForTimeout": 0,
+    "exclude": ["Knock Out"],
+    "customViewports": [
+      {
+        "stories": [
+          "Knock Out"
+        ],
+        "styles": {
+          "width": 1280,
+          "height": 768
+        }
+      }
+    ]
+  }
+}
